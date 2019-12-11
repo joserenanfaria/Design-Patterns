@@ -1,4 +1,4 @@
-ï»¿unit Prototype.Principal;
+unit Prototype.Principal;
 
 interface
 
@@ -51,7 +51,7 @@ end;
 
 procedure TfrmPrincipal.Button2Click(Sender: TObject);
 begin
-  FLista.Add(Flista[pred(FLista.Count)].Prototype.Clone);
+  FLista.Add(Flista[pred(FLista.Count)].Prototype.Clonar);
   carregarMemo;
 end;
 
@@ -64,7 +64,7 @@ begin
   begin
     Memo1.Lines.Add('ITEM: ' + i.ToString);
     Memo1.Lines.Add('ID: ' + FLista[i].Codigo.ToString);
-    Memo1.Lines.Add('DescriÃ§Ã£o: ' + FLista[i].Descricao);
+    Memo1.Lines.Add('Descrição: ' + FLista[i].Descricao);
     Memo1.Lines.Add('');
   end;
 end;

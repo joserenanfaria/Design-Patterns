@@ -26,10 +26,8 @@ object frmPrincipal: TfrmPrincipal
     Align = alRight
     Lines.Strings = (
       'Memo1')
+    ScrollBars = ssVertical
     TabOrder = 0
-    ExplicitLeft = 328
-    ExplicitTop = 88
-    ExplicitHeight = 89
   end
   object GroupBox1: TGroupBox
     Left = 10

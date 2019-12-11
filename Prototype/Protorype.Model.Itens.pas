@@ -35,7 +35,7 @@ implementation
 
 { TItens }
 
-function TItem.Clone: IItem;
+function TItem.Clonar: IItem;
 begin
   Result := TItem.New;
   Result.Codigo    := FCodigo;
