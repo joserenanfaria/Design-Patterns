@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ceykpe7tfdg_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Singleton:Singleton.Principal.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Singleton:Singleton.Principal.@unitclass.frmPrincipal" />
+      <reference referencedUin="delphi:l_ast:src:Singleton:Singleton.Principal.@unitclass.frmPrincipal" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Singleton:Singleton.Principal.TfrmPrincipal">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,91,81" />
+    </reference>
+  </view>
+</nodeSet>

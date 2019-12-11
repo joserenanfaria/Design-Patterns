@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="9ceybseevxi_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Singleton:Singleton.Model.Parametros.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:node:::sctn6iuwp0j_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="628,206,113,57" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Singleton:Singleton.Model.Parametros.TParametros">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,168,208" />
+      <reference referencedUin="delphi:e_field:src:Singleton:Singleton.Model.Parametros.TParametros.FInstance" />
+      <reference referencedUin="delphi:e_method:src:Singleton:Singleton.Model.Parametros.TParametros.Create()" />
+      <reference referencedUin="delphi:e_field:src:Singleton:Singleton.Model.Parametros.TParametros.FpermissaoCriar" />
+      <reference referencedUin="delphi:e_field:src:Singleton:Singleton.Model.Parametros.TParametros.FpermissaoEditar" />
+      <reference referencedUin="delphi:e_method:src:Singleton:Singleton.Model.Parametros.TParametros.SetpermissaoCriar(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Singleton:Singleton.Model.Parametros.TParametros.SetpermissaoEditar(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Singleton:Singleton.Model.Parametros.TParametros.GetInstance()" />
+      <reference referencedUin="delphi:e_property:src:Singleton:Singleton.Model.Parametros.TParametros.permissaoEditar" />
+      <reference referencedUin="delphi:e_property:src:Singleton:Singleton.Model.Parametros.TParametros.permissaoCriar" />
+      <reference referencedUin="delphi:l_ast:src:Singleton:Singleton.Model.Parametros.TParametros.FInstance">
+        <property name="sourceAnchor" value="178,210" />
+        <property name="targetAnchor" value="170,218" />
+        <property name="bendpoints" value="211,210,211,251,170,251" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="gu9umyksqxl_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::0togbeki0hr_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,107,166" />
+      <reference referencedUin="design:view:::225nba4f0nl_v" />
+      <reference referencedUin="design:view:::ceykpe7tfdg_v" />
+      <reference referencedUin="delphi:e_class:src:Singleton:Singleton.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>
