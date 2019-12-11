@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="fvaqhyq6l6lt5610k_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::fed0gpn2ktl5l8vte_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,113,181" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.Principal.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.Principal.TfrmPrincipal" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.Principal.TPessoa" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.Principal.TPessoaFactory" />
+    </reference>
+    <reference referencedUin="design:view:::j9d4uqy7otlyna5ko_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="132,1,109,166" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.Intf.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.Intf.IPessoa" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.Intf.IPessoaFactory" />
+    </reference>
+  </view>
+</nodeSet>

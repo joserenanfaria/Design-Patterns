@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="wtzp28ewopj6mh8ks_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::fvaqhyq6l6lt5610k_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,142,166" />
+      <reference referencedUin="delphi:e_class:src:AbstractFactory:AbstractFactory.@unitclass" />
+      <reference referencedUin="design:view:::fed0gpn2ktl5l8vte_v" />
+      <reference referencedUin="design:view:::j9d4uqy7otlyna5ko_v" />
+    </reference>
+    <reference referencedUin="design:view:::e382cx2z3rlqb0e4n_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="171,1,100,102" />
+    </reference>
+  </view>
+</nodeSet>
