@@ -29,10 +29,6 @@ object frmPrincipal: TfrmPrincipal
     Padding.Right = 10
     Padding.Bottom = 10
     TabOrder = 0
-    ExplicitLeft = 136
-    ExplicitTop = 56
-    ExplicitWidth = 185
-    ExplicitHeight = 105
     object Memo1: TMemo
       Left = 12
       Top = 173
@@ -42,9 +38,6 @@ object frmPrincipal: TfrmPrincipal
       Lines.Strings = (
         'Memo1')
       TabOrder = 0
-      ExplicitLeft = 96
-      ExplicitTop = 58
-      ExplicitWidth = 185
     end
     object Button1: TButton
       Left = 13
@@ -53,6 +46,7 @@ object frmPrincipal: TfrmPrincipal
       Height = 25
       Caption = 'Criar'
       TabOrder = 1
+      OnClick = Button1Click
     end
     object Button2: TButton
       Left = 94
@@ -61,6 +55,7 @@ object frmPrincipal: TfrmPrincipal
       Height = 25
       Caption = 'Editar'
       TabOrder = 2
+      OnClick = Button2Click
     end
   end
 end
