@@ -33,7 +33,7 @@ begin
   .Exportar(
     TModelSPEDC100.New)
   .Exportar(
-    TModelSPEDC190);
+    TModelSPEDC190.New);
 end;
 
 end.

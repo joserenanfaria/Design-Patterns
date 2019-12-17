@@ -19,7 +19,7 @@ type
   End;
 
 const
-  ARQUIVO = 'SPED TXT';
+  ARQUIVO = 'SPED.TXT';
 
 implementation
 

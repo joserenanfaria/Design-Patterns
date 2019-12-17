@@ -7,7 +7,7 @@ uses
 
 type
 
-  TModelSPEDC100 = Class(TInterfacedObject, IExport<Tvenda>)
+  TModelSPEDC190 = Class(TInterfacedObject, IExport<Tvenda>)
   private
     FArquivo: TStringList;
   public
@@ -19,42 +19,42 @@ type
   End;
 
 const
-  ARQUIVO = 'SPED TXT';
+  ARQUIVO = 'SPED.TXT';
 
 implementation
 
 uses
   System.SysUtils;
 
-{ TModelSPEDC100 }
+{ TModelSPEDC190 }
 
-constructor TModelSPEDC100.Create;
+constructor TModelSPEDC190.Create;
 begin
   FArquivo := TStringList.Create;
 
   if FileExists(ARQUIVO) then
     FArquivo.LoadFromFile(ARQUIVO);
 
-  FArquivo.Add('C100|0|1|');
+  FArquivo.Add('C190|0|1|');
 end;
 
-destructor TModelSPEDC100.Destroy;
+destructor TModelSPEDC190.Destroy;
 begin
 
   inherited;
 end;
 
-function TModelSPEDC100.GerarRegistros(Value: Tvenda): IExport<Tvenda>;
+function TModelSPEDC190.GerarRegistros(Value: Tvenda): IExport<Tvenda>;
 begin
   Result := Self;
   FArquivo.Add(Format(
-    'C100|%d|%d|%f|',
+    'C190|0|0|UN|%d|%d|%f|0|0|',
     [Value.COO, Value.Itens, Value.Total]
     ));
   FArquivo.SaveToFile(ARQUIVO);
 end;
 
-class function TModelSPEDC100.New: IExport<Tvenda>;
+class function TModelSPEDC190.New: IExport<Tvenda>;
 begin
   Result := Self.Create;
 end;
